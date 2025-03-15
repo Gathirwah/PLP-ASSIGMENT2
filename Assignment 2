@@ -50,7 +50,7 @@ It allows developers to create separate copies of a project to work on new featu
 7.	Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
 They enables collaboration by allowing developers to propose changes before merging them into the main branch. They facilitate code review, ensuring quality and preventing errors through feedback from team members. The typical process involves creating a branch, making changes, and pushing it to GitHub. A PR is then opened, where reviewers can comment, suggest edits, and approve the changes. Once approved, the branch is merged into the main branch, and the PR is closed. This structured approach maintains code quality, fosters teamwork, and prevents conflicts.
 
-8.	Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
+8.Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
 
 Forking creates a copy of another repository to your own account where you can make changes without affecting the original repositoy.  Cloning downloads a repository to your local machine without creating a separate version on GitHub,
 Forking is useful for open-source contributions, where developers can modify a project and submit pull requests to suggest changes.
