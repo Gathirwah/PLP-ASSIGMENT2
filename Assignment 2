@@ -1,0 +1,65 @@
+1.	Explain the fundamental concepts of version control and why GitHub is a popular tool for managing versions of code. How does version control help in maintaining project integrity?
+      Version control helps to   track changes to files over time, allowing developers to collaborate efficiently, revert to previous versions, and maintain project integrity. It helps prevent data loss, manage code updates, and streamline teamwork.
+Github allows multiple contributors to work on the same project without conflicts, tracks changes through commits, and provides a backup of code.
+version control ensures project integrity by keeping a history of changes, preventing accidental overwrites, and enabling smooth coordination
+2.	Describe the process of setting up a new repository on GitHub. What are the key steps, and what are some of the important decisions you must make during this process?
+•  Log in to GitHub and click the "+" icon → "New repository". 
+•  Enter a repository name and choose public or private visibility. 
+            •  Click "Create repository" to finalize the setup.
+   Public vs. Private – Controls access. 
+  Branching Strategy – Organizes development workflow. 
+ License – Defines usage rights. 
+  .gitignore – Prevents unnecessary files from being tracked.
+
+3.	Discuss the importance of the README file in a GitHub repository. What should be included in a well-written README, and how does it contribute to effective collaboration?
+It provides essential information about the project, making it easier for users and contributors to understand, install, and collaborate
+It should include:  Project Title & Description as it assists new developers quickly understand the project.
+ Installation Instructions as it Provides clear contribution guidelines, reducing confusion. 
+•  
+ Usage Guide  
+Contribution Guidelines 
+
+4.	Compare and contrast the differences between a public repository and a private repository on GitHub. What are the advantages and disadvantages of each, particularly in the context of collaborative projects?
+
+Basically, public repository can be viewed and accessed by anyone while private repository can only be viewed and accessed by authorized users.
+Merits of public repository
+Encourages open source collaborations
+Enables community contributions
+Demerits
+Less control over who sees the code.
+Potential copying and misuse
+Merits of private Repository
+Protects confidential work
+Prevents unauthorized modification
+Demerits
+Limits external contribution
+Not open to community contribution
+5.	Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
+A commit is a snapshot of changes in a Git-tracked project. It records modifications, allowing developers to track changes, revert to previous versions, and collaborate efficiently
+Making a git commit:
+(a)	Initialize Git   git init
+(b)	Create or modify a file    echo "# MyProject" > README.md
+(c)	Stage the File for Commit   git add README.md
+(d)	Commit the File with a Message   git commit -m "Initial commit"
+(e)	Connect to a GitHub Repository
+(f)	Push the Commit to GitHub
+
+6.	How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
+It allows developers to create separate copies of a project to work on new features or fixes without affecting the main codebase. It is essential for collaborative development as multiple contributors can work simultaneously without conflicts. A new branch is created from the main branch, where changes are made and tested independently. Once the work is complete, the branch is merged back into the main branch through a pull request, ensuring a smooth and controlled integration. This process keeps the codebase organized, enables parallel development, and minimizes errors in the final product.
+
+7.	Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
+They enables collaboration by allowing developers to propose changes before merging them into the main branch. They facilitate code review, ensuring quality and preventing errors through feedback from team members. The typical process involves creating a branch, making changes, and pushing it to GitHub. A PR is then opened, where reviewers can comment, suggest edits, and approve the changes. Once approved, the branch is merged into the main branch, and the PR is closed. This structured approach maintains code quality, fosters teamwork, and prevents conflicts.
+
+8.	Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
+
+Forking creates a copy of another repository to your own account where you can make changes without affecting the original repositoy.  Cloning downloads a repository to your local machine without creating a separate version on GitHub,
+Forking is useful for open-source contributions, where developers can modify a project and submit pull requests to suggest changes.
+9.	Examine the importance of issues and project boards on GitHub. How can they be used to track bugs, manage tasks, and improve project organization? Provide examples of how these tools can enhance collaborative efforts.
+Issues allow developers to report bugs, suggest features, and discuss improvements, ensuring transparency in project development.
+Project Boards provide a visual way to organize tasks using a Kanban-style system, where issues and tasks move through stages like "To Do," "In Progress," and "Done."
+e.g. A development team can use Issues to track reported bugs and a Project Board to assign and monitor progress, ensuring efficient collaboration.
+
+10.	Reflect on common challenges and best practices associated with using GitHub for version control. What are some common pitfalls new users might encounter, and what strategies can be employed to overcome them and ensure smooth collaboration?
+Challenges include merge conflicts that occur when multiple contributors edit the same file, which can be resolved by carefully reviewing changes before merging,  also poor commit practices, such as vague commit messages, can make tracking changes difficult.
+Regular communication, proper documentation, and understanding Git commands are key best practices for effective version control.
+
